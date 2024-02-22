@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+body{
+	margin: 10px;
+	
+}
+#photo-heading{
+	text-align: center;
+}
+ #animal-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px;
+  }
+
+  /* Styling for each image */
+  .animal-img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
